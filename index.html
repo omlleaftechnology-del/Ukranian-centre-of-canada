@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ukrainian Center of Canada — простір української громади в Канаді." />
+    <title>Ukrainian Center of Canada</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Ukrainian Center of Canada">
+        <img src="assets/ukr-logo.png" alt="Прапори України та Канади" />
+        <span>Ukrainian Center<br />of Canada</span>
+      </a>
+      <button class="menu-toggle" aria-label="Відкрити меню" aria-expanded="false"><span></span><span></span></button>
+      <nav class="nav" aria-label="Основна навігація">
+        <a href="#about">Місії</a><a href="#achievements">Досягнення</a><a href="#donate">Підтримка</a><a href="#contact">Контакти</a>
+        <div class="language-switcher" aria-label="Вибір мови"><button type="button" data-language="uk" class="active" aria-pressed="true">UA</button><button type="button" data-language="en" aria-pressed="false">EN</button><button type="button" data-language="fr" aria-pressed="false">FR</button></div>
+        <a class="donate-small" href="https://www.gofundme.com/f/h8w4a-ukrainian-centre-of-canada" target="_blank" rel="noopener noreferrer">Підтримати нас <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero hero-gallery">
+        <div class="full-screen-slideshow" aria-label="Життя української громади в Канаді">
+          <img class="slide active" src="assets/gallery/IMG_3235.jpg" alt="Українська громада Канади з прапорами України та Канади" />
+          <img class="slide" src="assets/gallery/provincial-letters.jpg" alt="Листи до прем’єрів провінцій Канади" />
+          <img class="slide" src="assets/gallery/quebec-meeting.jpg" alt="Зустріч представників української громади в Квебеку" />
+          <img class="slide" src="assets/gallery/IMG_0064.jpg" alt="Події української громади" />
+          <img class="slide" src="assets/gallery/IMG_0070%202.jpg" alt="Події української громади" />
+          <img class="slide" src="assets/gallery/IMG_0472.jpg" alt="Події української громади" />
+          <img class="slide" src="assets/gallery/IMG_1302%203.jpg" alt="Події української громади" />
+          <img class="slide" src="assets/gallery/IMG_1553.jpg" alt="Події української громади" />
+        </div>
+        <div class="hero-slogan"><span>Ukrainian Center of Canada</span><strong>Разом ми сила!</strong></div>
+        <div class="slide-dots full-screen-dots" aria-hidden="true"><i class="active"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      </section>
+
+      <section class="intro" id="about">
+        <div class="section-label">01 — НАШІ МІСІЇ</div>
+        <div class="intro-content mission-content"><h2>Наша <span>місія.</span></h2><div class="mission-list"><article class="mission-card residency"><div class="mission-icon">🏠</div><div><p class="mission-kicker">ПЕРША МІСІЯ</p><h3>Шлях до PR</h3><p>Домогтися створення спрощеної програми отримання статусу Permanent Resident (PR) для українців, які втекли від війни та прибули до Канади за програмою CUAET, — щоб кожен, хто знайшов тут свій дім, мав можливість залишитися та будувати своє майбутнє.</p></div><span class="mission-flag">🇺🇦 🇨🇦</span></article><article class="mission-card rights"><div class="mission-icon">🤝</div><div><p class="mission-kicker">ДРУГА МІСІЯ</p><h3>Представництво перед урядом</h3><p>Представляти інтереси українців перед урядом Канади, захищати їхні права та протидіяти дискримінації й несправедливості.</p></div><span class="mission-flag">🇺🇦 🇨🇦</span></article></div></div>
+      </section>
+
+      <section class="programs" id="achievements">
+        <div class="section-heading achievements-heading"><p class="eyebrow red"><span></span> 02 — НАШІ ДОСЯГНЕННЯ</p></div>
+        <div class="program-grid">
+          <article class="program blue response-card"><div class="achievement-copy"><div class="icon">✉</div><p>01</p><h3>Звернення до прем’єрів<br />провінцій</h3><span>Надіслали листи прем’єрам кожної провінції з проханням створити спеціальну PR-програму для українців, які прибули за CUAET.</span><strong class="achievement-number">45 000+ <small>підписів</small></strong></div><div class="response-links"><b>Офіційні відповіді провінцій</b><div><a href="assets/responses/quebec-response.pdf" target="_blank" rel="noopener noreferrer">Квебек <span>↗</span></a><a href="assets/responses/british-columbia-response.pdf" target="_blank" rel="noopener noreferrer">Британська<br />Колумбія <span>↗</span></a><a href="assets/responses/ontario-response.pdf" target="_blank" rel="noopener noreferrer">Онтаріо <span>↗</span></a><a href="assets/responses/alberta-response.pdf" target="_blank" rel="noopener noreferrer">Альберта <span>↗</span></a></div></div></article>
+        </div>
+        <div class="petition-video"><div class="video-copy"><h3>Офіційна петиція</h3><p>Чітко описали проблему українців: ми втекли від війни, не можемо повернутися, працюємо, сплачуємо податки та повністю інтегрувалися в канадське суспільство. Нам потрібна максимально спрощена спеціальна програма. Цю позицію було представлено в Національній асамблеї Квебеку депутатом André-Albert Morin.</p><a class="petition-link" href="https://m.assnat.qc.ca/en/exprimez-votre-opinion/petition/Petition-11883/index.html" target="_blank" rel="noopener noreferrer">Переглянути петицію <b>↗</b></a></div><iframe src="https://www.youtube.com/embed/gjc0---OIq0?si=qzQcwL4mCLURvPvv" title="YouTube video player" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      </section>
+
+      <section class="donate" id="donate"><div class="donate-copy"><p class="eyebrow red"><span></span> 03 — ПІДТРИМАТИ НАС</p><h2>Незалежність у дії.</h2><p>Ваша підтримка робить нас незалежними. Лише незалежність дає нам можливість по-справжньому представляти інтереси українців.</p></div><div class="donate-actions"><a class="button primary" href="https://www.gofundme.com/f/h8w4a-ukrainian-centre-of-canada" target="_blank" rel="noopener noreferrer">Підтримати на GoFundMe <span>↗</span></a><a class="button monobank" href="https://send.monobank.ua/jar/3Meb176frg" target="_blank" rel="noopener noreferrer">Підтримати гривнями — Monobank <span>↗</span></a></div></section>
+      <section class="social-section" aria-labelledby="social-title"><div class="social-heading"><p class="eyebrow"><span></span> БУДЬМО НА ЗВ’ЯЗКУ</p><h2 id="social-title">Наші соцмережі</h2></div><div class="social-grid"><a class="social-card tiktok" href="https://www.tiktok.com/@ukrcentre.ca" target="_blank" rel="noopener noreferrer"><span class="social-icon" aria-hidden="true"><img src="assets/social/tiktok.png" alt="" /></span><span>TikTok</span><b>↗</b></a><a class="social-card facebook" href="https://www.facebook.com/share/1FDaUoFaCd/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer"><span class="social-icon" aria-hidden="true">f</span><span>Facebook</span><b>↗</b></a><a class="social-card telegram" href="https://t.me/ukrcentrecanada" target="_blank" rel="noopener noreferrer"><span class="social-icon" aria-hidden="true"><img src="assets/social/telegram.png" alt="" /></span><span>Telegram</span><b>↗</b></a><a class="social-card instagram" href="https://www.instagram.com/ukrcentre.ca" target="_blank" rel="noopener noreferrer"><span class="social-icon" aria-hidden="true"><img src="assets/social/instagram.png" alt="" /></span><span>Instagram</span><b>↗</b></a></div></section>
+    </main>
+
+    <footer id="contact"><div class="footer-brand"><img src="assets/ukr-logo.png" alt="" /><h2>Ukrainian Center<br />of Canada</h2></div><div><p>Зв’яжіться з нами</p><a href="mailto:ukecentrecanada@gmail.com">ukecentrecanada@gmail.com</a></div><span class="copyright">© 2026 Ukrainian Center of Canada</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
